@@ -26,3 +26,12 @@ for (var i = 1; i <= lastDay; i++) {
         console.log(i + " - rest");
     }
 }
+
+/** Problem 04 - (Delete / Store) */
+var fileName = "pdfData.jpg";
+//write your code here
+if (fileName.startsWith("#") || fileName.includes(".pdf") || fileName.includes(".docx")) {
+    console.log("Store");
+} else {
+    console.log("Delete");
+}
